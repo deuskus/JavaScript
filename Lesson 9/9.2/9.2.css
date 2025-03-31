@@ -1,0 +1,76 @@
+.bodyMainDiv {
+    width: 98%;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.bodyMainDivBlock {
+    width: 100%;
+    border: 2px solid #e74c3c;
+    padding-left: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+    transition: transform 0.2s ease;
+}
+
+.bodyMainDivBlock:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.bodyMainDivBlockH3 {
+    width: 97%;
+    border: 2px solid #054382;
+    padding-left: 5px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border-radius: 3px;
+}
+
+.bodyMainDivBlockH4Month {
+    display: inline-block;
+    width: 28%;
+    border: 2px solid #054382;
+    margin-right: 10px;
+    padding-left: 5px;
+    background-color: #f0f8ff;
+    color: #3498db;
+    border-radius: 3px;
+}
+
+.bodyMainDivBlockH4Hour {
+    display: inline-block;
+    width: 66%;
+    border: 2px solid #054382;
+    padding-left: 5px;
+    background-color: #f0f8ff;
+    color: #3498db;
+    border-radius: 3px;
+}
+
+.bodyMainDivBlockUl {
+    border: 2px solid #054382;
+    list-style-type: none;
+    width: 93%;
+    padding: 10px 10px;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
+.bodyMainDivBlockUlLi {
+    border: 2px solid #054382;
+    width: 98%;
+    margin: 10px 0;
+    padding-left: 5px;
+    background-color: white;
+    border-radius: 3px;
+    transition: background-color 0.2s ease;
+}
+
+.bodyMainDivBlockUlLi:hover {
+    background-color: #e8f4fc;
+}
